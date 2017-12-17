@@ -150,4 +150,12 @@ export default class TreeNode {
     setValue(newValue) {
         this[value] = newValue;
     }
+
+    /**
+     * Gets all paths
+     * @returns {Path[]}
+     */
+    getPaths() {
+        return this[paths];
+    }
 }

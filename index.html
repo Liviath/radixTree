@@ -3,9 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <title>Radix Tree</title>
-    <script type="module" src="Tree.js"></script>
+    <script type="module" src="Entry.js"></script>
+    <link type="text/css" rel="stylesheet" href="Style.css">
 </head>
 <body>
-    <h1>Radix Tree</h1>
+    <div>
+        <h1>Radix Tree</h1>
+
+        <hr>
+
+        <h2>Controls</h2>
+
+        <div class="controlsRow">
+            <div class="label">Name</div>
+            <input class="input" id="nameInput" type="text"/>
+        </div>
+        <div class="controlsRow">
+            <div class="label">Value</div>
+            <input class="input" id="valueInput" type="text"/>
+        </div>
+        <button class="add" id="addButton">Add</button>
+        <hr>
+        <canvas id="canvas" style="border: 1px solid black; width: 1400px; height: 1000px" width="1400" height="1000"></canvas>
+    </div>
 </body>
 </html>
